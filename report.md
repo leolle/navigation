@@ -42,7 +42,7 @@ continuously decayed after every episode to gradually focus on exploitation rath
 
 
 ## Results:
-  The best performance was achieved by **Double DQN** where the reward of +13 was achieved in **377** episodes. It was a bit confusing to see that Dueling Double DQN wasn't the best one but I attribute it to the fact that I didn't do a hyperparameter search for the same and instead used the same hyperparameter setting. The plots of the rewards for the different variants of DQN is shown below:
+  The result of the Deep Q-Network is as below image, which is expected:
 
 
 ![dqn](results/dqn_new_scores.png) 
